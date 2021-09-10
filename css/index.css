@@ -1,0 +1,371 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url("C:\Users\asus\OneDrive\Desktop\suven\internship\alumini\img\maxresdefault.jpg");
+    background-color: rgb(209, 209, 209);
+    display: flex;
+    align-items: center;
+    width:100%;
+    justify-content: center;
+}
+
+.sub{
+    display: flex;
+    flex-direction: column;
+    
+    width:80%
+}
+
+.one{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    justify-content: space-between;
+    width:100%;
+    display: flex;
+}
+.one a{
+    font-weight: 400;
+    color:gray;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+form input:nth-child(1){
+    width:60%;
+    min-width: 150px;
+}
+form input:nth-child(2){
+    min-width: 80px;
+   height: 37px;
+    border-radius: 0;
+    border:none;
+    color: white;
+    text-transform: uppercase;
+    font-size: small;
+    background-color: rgb(78, 78, 78);
+   
+}
+.navbar-nav{
+    display: flex;
+    align-items: center;
+    height: 50px;
+   
+    width:55%;
+}
+.collapse{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.navbar-nav li a{
+    padding:1rem ;
+}
+.navbar-nav li{
+    height: 100%;
+    border-right: 1px solid rgb(63, 62, 62);
+}
+.nav-link{ 
+    display: inline-flex;
+    height: 100%;
+    padding: 0rem 10rem;
+    text-transform: uppercase;
+    font-size: smaller;
+} 
+nav{
+    background-color: rgb(71, 71, 71);
+}
+
+.nav-link:focus,.nav-link:hover{
+    background-color: red;
+}
+
+.navbar-right{
+    width:40%;
+}
+
+#if{
+    margin-bottom: 0;
+    height: 50px;
+ 
+    width:40%;
+   
+    display: flex;
+    align-items: center;
+   
+}
+#if li:hover{
+    
+    background-color: red;
+}
+
+#if li{
+  
+    border-left: 1px solid rgb(83, 83, 83);
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.nav-l{
+    color: white;
+}
+
+.c{
+    background-position: center;
+    height: 80vh;
+   background-size: 100% 150%;
+    background-image: url("New folder/DSF2094-1920px.jpg");
+}
+
+.in{
+    margin: 10% auto;
+    width:50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+.da-link{
+    
+    padding: 0rem 1rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border:2px solid red;
+    border-radius: 2px;
+}
+.da-link span{
+    padding: 0.7rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: skewX(20deg);
+    
+   
+    
+}
+.in h2{
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.da-link:hover span{
+    background-color: red;
+    opacity: 1;
+    transition: 0.5s;
+    color: white;
+}
+.da-link span a{
+    color: white;
+    text-transform: uppercase;
+    display: inline-block;
+    transform: skewX(-20deg);
+    text-decoration: none;
+    font-size: small;
+}
+.images_1_of_4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.images_1_of_4 h4{
+    text-transform: uppercase;
+    
+}
+.images_1_of_4 h4 a{
+    color: black;
+    text-decoration: none;
+}
+.bg{
+    margin-bottom: 2rem;
+}
+.fa-btn{
+    display: inline-flex;
+   
+    font-size: smaller;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+   transform: skewX(-20deg);
+    border-radius: 3px;
+}
+.images_1_of_4 h6{
+    width:70%;
+    padding: 0rem 1rem;
+    border:2px solid red;
+}
+h6 span {
+    padding: 0.5rem 0rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: skewX(20deg);
+    
+    
+}
+.images_1_of_4 h6:hover span{
+    
+    background-color: red;
+    transition: 0.5s;
+}
+.images_1_of_4 h6:hover a{
+    color :white;
+}
+
+.main_bg{
+    background-color: rgb(219, 219, 219);
+}
+.main{
+    padding-top: 5rem;
+}
+
+.main1{
+    
+    padding: 3rem 2rem;
+   background-color:  rgb(219, 219, 219);
+}
+.main1 img{
+    width:100%;
+    height: 90%;
+}
+.row{
+    width:100.9%;
+}
+.col-md-6{
+    font-weight: 360;
+}
+.col-md-6 span{
+    color: red;
+}
+.con{
+    padding: 1rem 9rem;
+    background-color: rgb(209, 209, 209);
+}
+
+.gri{
+   
+    overflow-x:scroll;
+   width:100%;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap:1rem;
+}
+.s{
+    
+    height: fit-content;
+    padding:1rem;
+    font-size: small;
+    background-color: white;
+    width:250px;
+    text-align: justify;
+}
+.s a{
+    font-weight: 400;
+    text-transform: uppercase;
+    color: rgb(114, 112, 112);
+    text-decoration: none;
+}
+footer{
+    padding: 3rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width:1000px){
+
+    .main1{
+        width:101.9%;
+    }
+    .one{
+        flex-direction: column;
+        align-self: center;
+        width:80%;
+    }
+    .images_1_of_4{
+        margin-bottom: 3rem;
+    }
+    .one form input:nth-child(1){
+        width:100%;
+    }
+    .one form input:nth-child(2){
+        width:50%;
+        margin-left: -49%;
+        position: relative;
+
+    }
+    .one form input {
+        margin-bottom: 1rem;
+    }
+    .navbar-right{
+        width:50%;
+    }
+    .sub{
+        width:100%;
+    }
+    .two{
+        margin:0;
+        width:100%;
+    }
+    .collapse{
+        align-items: center;
+        
+    }
+    
+    .navbar-nav li{
+        width:50%;
+       
+    }
+    .navbar-nav li a{
+       display: flex;
+       justify-content: center;
+        
+        padding:1rem;
+       
+       
+    }
+    #if{
+       
+        width:100%;
+        align-items: center;
+    }
+    #if li{
+        
+        border: none;
+    }
+    nav{
+       
+       
+    }
+    .navbar-nav li{
+       
+        border: none;
+    }
+    .navbar-nav {
+        height: 100%;
+        width:100%;
+    }
+   
+}
+@media screen and (max-width:768px){
+    .con{
+        padding:1rem  12%;
+        width:100%;
+    }
+   .s{
+       width:72vw;
+   }
+}

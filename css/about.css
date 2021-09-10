@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url("img/maxresdefault.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    width:100%;
+    justify-content: center;
+}
+
+.sub{
+    display: flex;
+    flex-direction: column;
+    
+    width:80%
+}
+
+.one{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    justify-content: space-between;
+    width:100%;
+    display: flex;
+}
+.one a{
+    font-weight: 400;
+    color:rgb(209, 209, 209);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+form input:nth-child(1){
+    width:60%;
+    min-width: 150px;
+}
+form input:nth-child(2){
+    min-width: 80px;
+   height: 37px;
+    border-radius: 0;
+    border:none;
+    color: white;
+    text-transform: uppercase;
+    font-size: small;
+    background-color: rgb(78, 78, 78);
+   
+}
+.navbar-nav{
+    display: flex;
+    align-items: center;
+    height: 50px;
+   
+    width:55%;
+}
+.collapse{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.active{
+    background-color: red;
+    
+}
+.navbar-nav li{
+    height: 100%;
+  
+    border-right: 1px solid rgb(58, 58, 58);
+}
+.nav-link{ 
+    display: inline-flex;
+    height: 100%;
+    padding: 0rem 10rem;
+    text-transform: uppercase;
+    font-size: smaller;
+} 
+nav{
+    background-color: rgb(71, 71, 71);
+}
+
+.nav-link:focus,.nav-link:hover{
+    background-color: red;
+}
+
+.navbar-right{
+    width:40%;
+}
+
+#if{
+    margin-bottom: 0;
+    height: 50px;
+    
+    width:40%;
+  
+    display: flex;
+    align-items: center;
+   
+}
+#if li:hover{
+    
+    background-color: red;
+}
+
+#if li{
+    border-left: 1px solid rgb(59, 59, 59);
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.nav-l{
+    color: white;
+}
+.main_bg{
+    
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: rgb(204, 204, 204);
+}
+.main_btm{
+    padding-bottom: 3rem;
+    background-color: rgb(204, 204, 204) ;
+}
+.content_left img{
+    width:100%;
+}
+.about h2{
+    text-transform: capitalize;
+    font-weight: 350;
+}
+.para{
+    line-height: 1.6rem;
+    color: rgb(92, 91, 91);
+    font-size:15px;
+}
+.r{
+    border-radius: 3px;
+    border:2px solid red;
+    width:fit-content;
+    padding:0rem 1rem;
+
+}
+.r span{
+    padding:0.5rem 1rem;
+    transform: skewX(20deg);
+  
+    display: flex;
+}
+.r:hover span{
+    background-color:red;
+    transition: 0.5s;
+}
+.r:hover a{
+    color: white;
+}
+.r a{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    transform: skewX(-20deg);
+    font-size: smaller;
+}
+footer{
+    padding: 2rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: red;
+}
+.alert{
+       background-color: white;
+}
+@media screen and (max-width:1000px){
+
+    .main1{
+        width:101.9%;
+    }
+    .one{
+        flex-direction: column;
+        align-self: center;
+        width:80%;
+    }
+    .images_1_of_4{
+        margin-bottom: 3rem;
+    }
+    .one form input:nth-child(1){
+        width:100%;
+    }
+    .one form input:nth-child(2){
+        width:50%;
+        margin-left: -49%;
+        position: relative;
+
+    }
+    .one form input {
+        margin-bottom: 1rem;
+    }
+    .navbar-right{
+        width:50%;
+    }
+    .sub{
+        width:100%;
+    }
+    .two{
+        margin:0;
+        width:100%;
+    }
+    .collapse{
+        align-items: center;
+        
+    }
+    
+    .navbar-nav li{
+        width:50%;
+       
+    }
+    .navbar-nav li a{
+       display: flex;
+       justify-content: center;
+        
+        padding:1rem;
+       
+       
+    }
+    #if{
+       
+        width:100%;
+        align-items: center;
+    }
+    #if li{
+        
+        border: none;
+    }
+    nav{
+       
+       
+    }
+    .navbar-nav li{
+       
+        border: none;
+    }
+    .navbar-nav {
+        height: 100%;
+        width:100%;
+    }
+   
+}
+@media screen and (max-width:768px){
+    .con{
+        padding:1rem  12%;
+        width:100%;
+    }
+   .s{
+       width:72vw;
+   }
+}

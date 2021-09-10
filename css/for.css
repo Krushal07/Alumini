@@ -1,0 +1,45 @@
+nav{
+    /* padding:0rem 4rem; */
+}
+.ak{
+    position: absolute;
+    top:0%;
+    right: 7%;
+}
+.a{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+}
+.b{
+    height: 50px;
+  display: flex;
+  align-items: flex-start;
+  
+  padding: 0;
+    width: 100%;
+    background-color: rgb(219, 217, 217);
+}
+.b ul{
+   
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 0;
+}
+.b li{
+    list-style: none;
+}
+.b a{
+    text-decoration: none;
+}
+.row{
+    width:100%;
+}
+.h{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}

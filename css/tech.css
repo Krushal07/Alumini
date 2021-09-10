@@ -1,0 +1,278 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url("img/maxresdefault.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    width:100%;
+    justify-content: center;
+}
+
+.sub{
+    display: flex;
+    flex-direction: column;
+    
+    width:80%
+}
+
+.one{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    justify-content: space-between;
+    width:100%;
+    display: flex;
+}
+.one a{
+    font-weight: 400;
+    color:rgb(206, 206, 206);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+form input:nth-child(1){
+    width:60%;
+    min-width: 150px;
+}
+form input:nth-child(2){
+    min-width: 80px;
+   height: 37px;
+    border-radius: 0;
+    border:none;
+    color: white;
+    text-transform: uppercase;
+    font-size: small;
+    background-color: rgb(78, 78, 78);
+   
+}
+.navbar-nav{
+    display: flex;
+    align-items: center;
+    height: 50px;
+   
+    width:55%;
+}
+.collapse{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.active{
+    background-color: red;
+    
+}
+.navbar-nav li{
+    height: 100%;
+  
+    border-right: 1px solid rgb(58, 58, 58);
+}
+.nav-link{ 
+    display: inline-flex;
+    height: 100%;
+    padding: 0rem 10rem;
+    text-transform: uppercase;
+    font-size: smaller;
+} 
+nav{
+    background-color: rgb(71, 71, 71);
+}
+
+.nav-link:focus,.nav-link:hover{
+    background-color: red;
+}
+
+.navbar-right{
+    width:40%;
+}
+
+#if{
+    margin-bottom: 0;
+    height: 50px;
+    
+    width:40%;
+   
+    display: flex;
+    align-items: center;
+   
+}
+#if li:hover{
+    
+    background-color: red;
+}
+
+#if li{
+    border-left: 1px solid rgb(59, 59, 59);
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.nav-l{
+    color: white;
+}
+.main_bg{
+    padding-top: 3rem;
+    background-color: rgb(204, 204, 204);
+}
+.i{
+    display: flex;
+}
+.i i{
+    margin-top: 2rem;
+}
+.technology h2{
+    font-weight: 350;
+    margin-bottom: 2rem;
+}
+.technology_list1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 150px;
+    margin-bottom: 2rem;
+}
+.page-link:hover{
+    background-color: red;
+}
+.para{
+    font-weight: 350;
+    font-size: smaller;
+}
+footer{
+    padding: 2rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.read_more{
+    border:2px solid red;
+    width:fit-content;
+    border-radius: 3px;
+    padding: 0rem 2rem;
+}
+.read_more:hover span{
+    transition: 0.5s;
+    background-color: red;
+}
+.read_more:hover a{
+    color: white;
+}
+.read_more span{
+
+    display: flex;
+    transform: skewX(20deg);
+    padding: 0.2rem 1rem;
+    height: 100%;
+    width:100%;
+    
+}
+.read_more a{
+    color: black;
+    text-transform: uppercase;
+    font-size: smaller;
+    transform: skewX(-20deg);
+    text-decoration: none;
+}
+footer a{
+    text-decoration: none;
+    color: red;
+}
+.alert{
+       background-color: white;
+}
+@media screen and (max-width:1000px){
+
+    .main1{
+        width:101.9%;
+    }
+    .one{
+        flex-direction: column;
+        align-self: center;
+        width:80%;
+    }
+    .images_1_of_4{
+        margin-bottom: 3rem;
+    }
+    .one form input:nth-child(1){
+        width:100%;
+    }
+    .one form input:nth-child(2){
+        width:50%;
+        margin-left: -49%;
+        position: relative;
+
+    }
+    .one form input {
+        margin-bottom: 1rem;
+    }
+    .navbar-right{
+        width:50%;
+    }
+    .sub{
+        width:100%;
+    }
+    .two{
+        margin:0;
+        width:100%;
+    }
+    .collapse{
+        align-items: center;
+        
+    }
+    
+    .navbar-nav li{
+        width:50%;
+       
+    }
+    .navbar-nav li a{
+       display: flex;
+       justify-content: center;
+        
+        padding:1rem;
+       
+       
+    }
+    #if{
+       
+        width:100%;
+        align-items: center;
+    }
+    #if li{
+        
+        border: none;
+    }
+    nav{
+       
+       
+    }
+    .navbar-nav li{
+       
+        border: none;
+    }
+    .navbar-nav {
+        height: 100%;
+        width:100%;
+    }
+   
+}
+@media screen and (max-width:768px){
+    .con{
+        padding:1rem  12%;
+        width:100%;
+    }
+   .s{
+       width:72vw;
+   }
+}
